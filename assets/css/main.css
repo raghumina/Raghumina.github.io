@@ -187,6 +187,7 @@ input, select, textarea {
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
 		margin: 0 0 1rem 0;
+		color: black;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -205,6 +206,7 @@ input, select, textarea {
 		font-size: 1.75rem;
 		line-height: 1.3;
 		margin: 0 0 1.5rem 0;
+		color: black;
 	}
 
 	h3 {
@@ -2637,6 +2639,7 @@ input, select, textarea {
 			margin-left: auto;
 			margin-right: auto;
 			width: 70%;
+			align-items: center;
 			
 		}
 
@@ -3580,7 +3583,7 @@ input, select, textarea {
 
 			#header .logo:hover {
 				border-color: #18bfef !important;
-				color: #18bfef !important;
+				color: black !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3758,7 +3761,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: black;
+		background-image: url("spacewar.gif");
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
@@ -4008,7 +4011,7 @@ input, select, textarea {
 		#footer .box {
 			border-color: #e2e2e2;
 		}
-
+/**
 		#footer input[type="submit"],
 		#footer input[type="reset"],
 		#footer input[type="button"],
@@ -4099,7 +4102,7 @@ input, select, textarea {
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
 			border-color: #18bfef;
-		}
+		}**/
 
 		#footer ::-webkit-input-placeholder {
 			color: #b3b7bb !important;
@@ -4627,7 +4630,6 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
 			width: 7rem;
 		}
 
